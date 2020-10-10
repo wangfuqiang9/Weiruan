@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <!-- 注册 -->
+    <div class="registerBox">
+        <div class="registerCenter">
+                <div class="imgleftBox">
+                    <img src="https://acctcdn.msauth.net/images/microsoft_logo_7lyNn7YkjJOP0NwZNw6QvQ2.svg" alt="">
+                </div>
+                <div class="titleBox">
+                    <h3>创建用户</h3>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="username" placeholder="sonmeone@example.com">
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="password" placeholder="请输入6~18个字符">
+                </div>
+                <div class="XXXbox">
+                    <a href="">改为电话号码</a>
+                </div>
+                <div class="XXXbox2">
+                    <a href="">获取新的电子邮件地址</a>
+                </div>
+                <div class="buttonBox">
+                    <button  id="btn1">下一步</button>
+                </div>
+        </div>
+    </div>
+</body>
+<script type="module">
+    import ajax from './js/ajax.js';
+    var oBtn = document.getElementById("btn1");
+    var aInput = document.querySelectorAll(".inputBox input");
+    oBtn.onclick = function(){
+        ajax({
+            type:"post",
+            url:"register.php",
+            data:{
+                username: aInput[0].value,
+                password:aInput[1].value
+            },
+            success:function(msg){
+                console.log(msg)
+            },
+            error:function(msg){
+                console.log(msg)
+            }
+        })
+    }
+</script>
+</html>   

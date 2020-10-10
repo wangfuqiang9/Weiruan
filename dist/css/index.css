@@ -1,0 +1,575 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ul, li, ol {
+  list-style: none; }
+
+#top {
+  width: 100%;
+  height: 33.6px;
+  background-color: #0067b8; }
+
+#top a {
+  width: 100%;
+  height: 33.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff; }
+
+.globaoMenu {
+  width: 100%;
+  height: 50px; }
+
+.globaoMenu .HeaderContainner {
+  width: 1180px;
+  height: 50px;
+  margin: 0 auto; }
+
+.globaoMenu .HeaderContainner a {
+  display: block;
+  width: 130px;
+  height: 50px;
+  float: left; }
+
+.globaoMenu .HeaderContainner a img {
+  display: block;
+  width: 130px;
+  height: 50px; }
+
+.globaoMenu .HeaderContainner .cocent {
+  float: left;
+  width: 120px;
+  height: 50px; }
+
+.globaoMenu .HeaderContainner .cocent .globao {
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px; }
+
+.globaoMenu .HeaderContainner .cocent .globao li {
+  list-style: none;
+  width: 120px;
+  height: 50px; }
+
+.globaoMenu .HeaderContainner .cocent .globao li a {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none; }
+
+.globaoMenu .HeaderContainner .fromright {
+  width: 469.15px;
+  height: 50px;
+  float: right;
+  display: flex;
+  align-items: center; }
+  .globaoMenu .HeaderContainner .fromright .seachBox {
+    width: 344px;
+    height: 30px; }
+    .globaoMenu .HeaderContainner .fromright .seachBox form input {
+      width: 327px;
+      height: 26px;
+      border: 1px solid black; }
+    .globaoMenu .HeaderContainner .fromright .seachBox form span {
+      float: right;
+      z-index: 1;
+      margin-top: -22px; }
+  .globaoMenu .HeaderContainner .fromright .carBox {
+    width: 60px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .globaoMenu .HeaderContainner .fromright .carBox a {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none; }
+  .globaoMenu .HeaderContainner .fromright .loginBox {
+    width: 58.15px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+    .globaoMenu .HeaderContainner .fromright .loginBox span {
+      color: #999;
+      font-size: 14px; }
+
+.navigationBar {
+  width: 100%;
+  height: 71px; }
+  .navigationBar .concent {
+    width: 1180px;
+    height: 71px;
+    margin: 0 auto; }
+    .navigationBar .concent .font1 {
+      width: 1180px;
+      height: 71px; }
+      .navigationBar .concent .font1 span {
+        text-align: center;
+        line-height: 71px;
+        float: left;
+        font-size: 14px; }
+      .navigationBar .concent .font1 :nth-child(9) {
+        color: #0067b8;
+        float: right;
+        font-size: 12px; }
+      .navigationBar .concent .font1 li {
+        list-style: none;
+        float: left;
+        margin-left: 55px;
+        line-height: 71px; }
+        .navigationBar .concent .font1 li a {
+          text-decoration: none;
+          color: #0067b8;
+          font-size: 14px; }
+          .navigationBar .concent .font1 li a:hover {
+            text-decoration: underline; }
+
+.bannerBox {
+  width: 100%;
+  height: 442px; }
+  .bannerBox .imgBox {
+    width: 1180px;
+    height: 442px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; }
+    .bannerBox .imgBox .conent {
+      width: 800%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: -1180px; }
+      .bannerBox .imgBox .conent li {
+        width: 1180px;
+        height: 100%;
+        float: left; }
+        .bannerBox .imgBox .conent li img {
+          width: 100%;
+          height: 100%; }
+    .bannerBox .imgBox .pointBox {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bannerBox .imgBox .pointBox li {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid black;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 5px; }
+      .bannerBox .imgBox .pointBox li.active {
+        background-color: black; }
+  .bannerBox .leftRightTabs {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .bannerBox .leftRightTabs a {
+      width: 35px;
+      height: 35px;
+      border: 1px solid black;
+      border-radius: 50%;
+      opacity: 0.1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      text-decoration: none; }
+
+.concentBox {
+  width: 100%;
+  height: 172px; }
+  .concentBox .groupc {
+    width: 1180px;
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; }
+    .concentBox .groupc ul {
+      width: 865px;
+      height: 72px;
+      margin: 0 auto; }
+      .concentBox .groupc ul li {
+        width: 144px;
+        height: 72px;
+        float: left;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center; }
+        .concentBox .groupc ul li .iconfont {
+          font-size: 44px;
+          color: #0067b8; }
+        .concentBox .groupc ul li a {
+          display: block;
+          width: 120px;
+          height: 72px;
+          text-decoration: none; }
+          .concentBox .groupc ul li a span {
+            display: block;
+            font-size: 12px;
+            font-weight: 900;
+            margin-top: 2px; }
+
+.categoryproduct {
+  width: 100%;
+  height: 327px; }
+  .categoryproduct .conent {
+    width: 1180px;
+    height: 327px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .categoryproduct .conent div {
+      width: 280px;
+      height: 327px; }
+      .categoryproduct .conent div img {
+        width: 100%;
+        height: 50%; }
+      .categoryproduct .conent div .font2 {
+        text-align: center;
+        line-height: 28px;
+        width: 92px;
+        height: 28px;
+        background-color: #fcba02;
+        margin-top: 10px; }
+      .categoryproduct .conent div .font3 {
+        width: 100%;
+        height: 64px;
+        margin-top: 10px;
+        font-weight: 900;
+        color: #27232A; }
+      .categoryproduct .conent div .font4 {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        color: #0067b8;
+        font-weight: 900; }
+      .categoryproduct .conent div .font5 {
+        width: 92px;
+        height: 28px;
+        margin-top: 10px; }
+
+.productre {
+  width: 100%;
+  height: 412px; }
+  .productre .conent {
+    width: 1180px;
+    height: 412px;
+    margin: 0 auto; }
+    .productre .conent h3 {
+      float: left;
+      margin-top: 40px;
+      width: 100%;
+      height: 52px;
+      font-size: 28px;
+      line-height: 52px; }
+    .productre .conent .photo1 {
+      float: left;
+      width: 180px;
+      height: 130px;
+      margin-left: 16px; }
+      .productre .conent .photo1 img {
+        width: 100%; }
+      .productre .conent .photo1 .fontxxx {
+        width: 60px;
+        height: 28px;
+        margin-top: 10px;
+        background-color: #fcba02;
+        text-align: center;
+        line-height: 28px; }
+      .productre .conent .photo1 .fontxxx2 {
+        width: 60px;
+        height: 28px;
+        margin-top: 10px; }
+      .productre .conent .photo1 .zi1 {
+        display: block;
+        margin-top: 35px;
+        font-weight: 900; }
+      .productre .conent .photo1 .zi2 {
+        display: block;
+        margin-top: -15px;
+        color: #000000;
+        font-size: 14px; }
+      .productre .conent .photo1 .ziBox {
+        margin-top: 25px; }
+        .productre .conent .photo1 .ziBox .zi3 {
+          font-size: 14px;
+          margin-top: 20px; }
+        .productre .conent .photo1 .ziBox .zi4 {
+          font-size: 14px;
+          font-weight: 900; }
+      .productre .conent .photo1 a {
+        display: block;
+        color: #0067b8;
+        margin-top: 5px;
+        font-weight: 900; }
+
+.surfaceBox {
+  width: 100%;
+  height: 586px; }
+  .surfaceBox .surfacecoent {
+    width: 1180px;
+    height: 586px;
+    margin: 0 auto; }
+    .surfaceBox .surfacecoent h3 {
+      float: left;
+      margin-top: 40px;
+      width: 100%;
+      height: 52px;
+      font-size: 28px;
+      line-height: 52px; }
+    .surfaceBox .surfacecoent .productlist {
+      height: 462px;
+      width: 1180px;
+      background-color: #f2f2f2;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between; }
+    .surfaceBox .surfacecoent .productdetail {
+      width: 280px;
+      height: 420px;
+      margin-top: 20px;
+      background-color: #fff; }
+      .surfaceBox .surfacecoent .productdetail img {
+        width: 100%; }
+      .surfaceBox .surfacecoent .productdetail .font11 {
+        font-size: 20px;
+        color: #23272a;
+        margin-left: 25px; }
+      .surfaceBox .surfacecoent .productdetail .font12 {
+        width: 114px;
+        height: 40px;
+        background-color: #0067b8;
+        margin-top: 45px;
+        margin-left: 25px;
+        text-align: center;
+        line-height: 40px; }
+        .surfaceBox .surfacecoent .productdetail .font12 a {
+          text-decoration: none;
+          color: #fff; }
+          .surfaceBox .surfacecoent .productdetail .font12 a:hover {
+            text-decoration: underline; }
+      .surfaceBox .surfacecoent .productdetail .contentBox {
+        width: 239px;
+        height: 120px;
+        margin: 30px auto; }
+      .surfaceBox .surfacecoent .productdetail .newBox {
+        width: 60px;
+        height: 28px;
+        background-color: #fcba02;
+        text-align: center;
+        line-height: 28px;
+        margin-left: 20px; }
+      .surfaceBox .surfacecoent .productdetail .zi12 {
+        display: block;
+        margin-top: 10px;
+        font-weight: 900;
+        margin-left: 20px; }
+      .surfaceBox .surfacecoent .productdetail .zi13 {
+        display: block;
+        margin-top: -12px;
+        color: #27232A;
+        font-size: 14px;
+        margin-left: 20px; }
+      .surfaceBox .surfacecoent .productdetail .ziBox {
+        margin-top: 55px;
+        margin-left: 20px;
+        font-weight: 9000; }
+        .surfaceBox .surfacecoent .productdetail .ziBox span {
+          font-weight: 900; }
+      .surfaceBox .surfacecoent .productdetail a {
+        display: block;
+        margin-left: 20px;
+        margin-top: 5px;
+        font-weight: 900;
+        color: #0067b8; }
+      .surfaceBox .surfacecoent .productdetail .newBox2 {
+        line-height: 28px;
+        margin-left: 20px;
+        width: 60px;
+        height: 28px; }
+  .surfaceBox .productdetail:nth-child(1) {
+    background-color: #f2f2f2; }
+  .surfaceBox .newBox3 {
+    width: 85px;
+    height: 28px;
+    background-color: #fcba02;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 20px; }
+
+.gameBox {
+  width: 100%;
+  height: 441px; }
+  .gameBox .gameConent {
+    width: 1180px;
+    height: 441px;
+    margin: 0 auto; }
+    .gameBox .gameConent h3 {
+      float: left;
+      margin-top: 40px;
+      width: 100%;
+      height: 52px;
+      font-size: 28px;
+      line-height: 52px; }
+    .gameBox .gameConent .darkBox {
+      width: 1150px;
+      height: 324px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      padding: 0 15px;
+      background-color: #f2f2f2; }
+      .gameBox .gameConent .darkBox .imgBox10 {
+        text-decoration: none;
+        display: block;
+        width: 128px;
+        height: 295px;
+        background-color: #fff;
+        margin-left: 8px; }
+        .gameBox .gameConent .darkBox .imgBox10 .img img {
+          width: 118px;
+          height: 193px;
+          padding: 5px 5px 0 5px; }
+        .gameBox .gameConent .darkBox .imgBox10 .font1 {
+          color: #000000;
+          font-size: 14px;
+          margin-top: 10px;
+          padding: 5px 5px 0 5px; }
+        .gameBox .gameConent .darkBox .imgBox10 .font2 {
+          display: block;
+          margin-top: 5px;
+          font-size: 5px;
+          width: 100px;
+          height: 14px;
+          padding: 5px 5px 0 5px; }
+      .gameBox .gameConent .darkBox .ringht01 {
+        width: 44px;
+        height: 62px;
+        float: left;
+        text-align: center;
+        font-size: 50px;
+        line-height: 62px; }
+      .gameBox .gameConent .darkBox .left02 {
+        width: 44px;
+        height: 62px;
+        float: right;
+        font-size: 50px;
+        line-height: 62px;
+        text-align: center; }
+
+.promise-container {
+  width: 1180px;
+  height: 200px;
+  margin: 0 auto; }
+  .promise-container h3 {
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    height: 52px;
+    font-size: 28px;
+    line-height: 52px; }
+  .promise-container .commitmentBox {
+    width: 150px;
+    height: 68px;
+    float: left;
+    margin: 30px 0 0 30px;
+    text-align: center; }
+    .promise-container .commitmentBox a {
+      text-decoration: none; }
+    .promise-container .commitmentBox i {
+      font-size: 40px;
+      text-align: center; }
+    .promise-container .commitmentBox span {
+      color: #000000;
+      display: block;
+      margin-top: 10px; }
+
+.blocknewslettr {
+  width: 100%;
+  height: 104px; }
+  .blocknewslettr .blocktop {
+    width: 1180px;
+    height: 104px;
+    margin: 0 auto;
+    line-height: 104px;
+    border-bottom: 1px solid #999; }
+  .blocknewslettr input {
+    width: 364px;
+    height: 40px;
+    border: 1px solid #999;
+    padding: 0 0 0 10px; }
+  .blocknewslettr button {
+    width: 114px;
+    height: 40px;
+    background-color: #0067b8;
+    text-align: center;
+    color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-family: "微软雅黑"; }
+  .blocknewslettr a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    color: #0067b8; }
+
+.cmsfooter {
+  width: 100%;
+  height: 770px;
+  background-color: #f2f2f2; }
+  .cmsfooter .footercontent {
+    width: 1180px;
+    height: 700px;
+    margin: 0 auto; }
+    .cmsfooter .footercontent .listitem {
+      width: 196px;
+      height: 500px;
+      float: left;
+      margin-top: 20px; }
+      .cmsfooter .footercontent .listitem li {
+        display: flex;
+        width: 196px;
+        height: 20px;
+        margin-top: 20px; }
+      .cmsfooter .footercontent .listitem a {
+        display: block;
+        height: 20px;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        margin-top: 20px;
+        text-decoration: none;
+        color: #000000; }
+      .cmsfooter .footercontent .listitem .font99 {
+        height: 20px;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        margin-top: 60px; }
+      .cmsfooter .footercontent .listitem i {
+        font-size: 30px; }
+      .cmsfooter .footercontent .listitem img {
+        width: 126px;
+        height: 126px; }

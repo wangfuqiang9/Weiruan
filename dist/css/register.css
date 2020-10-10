@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  height: 0px; }
+
+body {
+  background-image: url("https://acctcdn.msauth.net/images/2_vD0yppaJX3jBnfbHF1hqXQ2.svg"); }
+
+.registerBox {
+  width: 450px;
+  height: 350px;
+  background-color: #ffffff;
+  margin: 200px auto; }
+  .registerBox .registerCenter {
+    width: 350px;
+    height: 300px;
+    margin: 10px auto;
+    margin-top: 20px; }
+    .registerBox .registerCenter .imgleftBox {
+      width: 350px;
+      height: 100px;
+      background: url(https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg) no-repeat left center; }
+    .registerBox .registerCenter .titleBox {
+      width: 350px;
+      height: 28px;
+      font-size: 24px;
+      color: #1b1b1b;
+      font-weight: 900; }
+    .registerBox .registerCenter .inputBox {
+      height: 52px;
+      width: 350px;
+      border-bottom: 1px solid black; }
+      .registerBox .registerCenter .inputBox input {
+        width: 342px;
+        height: 50px;
+        border: none; }
+    .registerBox .registerCenter .XXXbox {
+      width: 350px;
+      height: 40px; }
+      .registerBox .registerCenter .XXXbox a {
+        width: 350px;
+        height: 40px;
+        line-height: 40px;
+        color: #0067b8;
+        font-size: 13.6px;
+        text-decoration: none; }
+    .registerBox .registerCenter .XXXbox2 {
+      width: 350px;
+      height: 40px; }
+      .registerBox .registerCenter .XXXbox2 a {
+        width: 350px;
+        height: 40px;
+        color: #0067b8;
+        line-height: 40px;
+        font-size: 13.6px;
+        text-decoration: none; }
+    .registerBox .registerCenter .buttonBox {
+      width: 350px;
+      height: 40px; }
+      .registerBox .registerCenter .buttonBox button {
+        width: 108px;
+        height: 32px;
+        background-color: #0067b8;
+        float: right;
+        color: #ffffff;
+        border: none; }
